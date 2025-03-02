@@ -1,7 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { google } from 'googleapis';
 import { DatePipe } from "@angular/common";
-import { GoogleAuthService } from "../../../services/AuthService.service";
 import { OAuth2Client } from 'google-auth-library';
 
 interface CalendarEvent {
